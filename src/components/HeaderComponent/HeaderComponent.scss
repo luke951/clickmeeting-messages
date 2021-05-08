@@ -1,0 +1,44 @@
+@import "../../styles/variables";
+
+.header {
+		background-color: #212529;
+		&__logo {
+				width: 140px;
+		}
+		&__link {
+			color: #fff;
+			font-size: 14px;
+			padding: 15px 10px;
+			text-decoration: none;
+			display: inline-block;
+			&:hover, &:active {
+				color: $green;
+				text-decoration: none;
+			}
+			&--orange {
+				color: #ff8d0e;
+				&:hover, &:active {
+					color: #ff8d0e;
+				}
+			}
+			&--button {
+				color: #fff;
+				text-align: center;
+				background: $green;
+				padding: 5px 12px;
+				cursor: pointer;
+    		padding: 10px 12px;
+				margin: 4px 0.5rem;
+				box-shadow: 0 1px 0 #383a43;
+				white-space: nowrap;
+				border-radius: 35px;
+				&:hover, &:active {
+					color: #fff;
+					background: #65a73c;
+				}
+			}
+		}
+	#nav-collapse {
+		justify-content: flex-end;
+	}
+}

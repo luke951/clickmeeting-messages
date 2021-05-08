@@ -1,0 +1,31 @@
+body {
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+	min-height: 100vh;
+	height: 100%;
+	padding-bottom: 108px;
+	background-color: #f9f9f9;
+	@media only screen and (min-width: $sm-screen) {
+		padding-bottom: 50px;
+	}
+}
+
+.main-title {
+	font-size: 34px;
+	line-height: 1em;
+	padding: 0;
+	margin: 20px 0;
+	svg {
+		color: $green;
+		margin-right: 20px;
+	}
+}
+
+.table-responsive > .table {
+	background-color: #fff;
+}
+
+// .table thead th {
+// 	color: #fff;
+// 	background: #282b31;
+// }
