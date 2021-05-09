@@ -7,4 +7,17 @@
 	&__section {
 		padding: 40px 0;
 	}
+	.input-group {
+		margin-bottom: 20px;
+	}
+	&__filter {
+		display: inline-block;
+	}
+	&__button {
+		background-color: transparent;
+		border: none;
+	}
+	&__files-icon {
+		font-size: 32px;
+	}
 }

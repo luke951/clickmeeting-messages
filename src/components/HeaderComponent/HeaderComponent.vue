@@ -2,7 +2,7 @@
 	<div>
 		<header class="header">
 			<b-container>
-				<b-navbar toggleable="lg" sticky>
+				<b-navbar toggleable="lg" type="dark" variant="dark">
 					<b-navbar-brand href="#"><img class="header__logo img-fluid" src="../../assets/images/logotype_white_accent.svg" alt="logo"></b-navbar-brand>
 					<b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 					<b-collapse id="nav-collapse" is-nav>

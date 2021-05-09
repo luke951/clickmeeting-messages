@@ -25,7 +25,31 @@ body {
 	background-color: #fff;
 }
 
-// .table thead th {
-// 	color: #fff;
-// 	background: #282b31;
-// }
+.page-item.active .page-link {
+	background-color: $green;
+	border-color: $green;
+}
+
+.page-link, .page-link:hover {
+	color: $green;
+}
+
+.bg-dark {
+	background-color: #212529 !important;
+}
+
+.modal-header {
+	background-color: #212529;
+	color: #fff;
+	.close {
+		color: #fff;
+	}
+}
+
+.modal-body, .modal-footer {
+	background: #ededed;
+}
+
+.table th, .table td {
+	vertical-align: middle;
+}
